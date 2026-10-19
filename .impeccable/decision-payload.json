@@ -1,0 +1,132 @@
+{
+  "title": "Choose the visual world for the Clayface report",
+  "question": "The roll assigned Card Back Stat Line. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Card Back Stat Line",
+      "kicker": "THE ROLL",
+      "lineage": "Trading-card backs: team bands, the season stat line and the fine-print stats credit",
+      "thesis": "Each island is a collectible card, and the report is its back, where the stat line lives.",
+      "palette": ["#EEF0F2", "#14213D", "#F2C230", "#1D6FA3", "#7A3FA8", "#D9381E"],
+      "materials": ["coated card stock", "foil-stamped numerals", "fine-print stats credit"],
+      "viewport": "A navy shell bar with section tabs; two island cards side by side, key art as the front strip and the stat line underneath (fights, clays, reached 20, redeemed), the redemption rate stamped largest.",
+      "risk": "Collectible styling tips into toy-like if bands and foil are used beyond the stat line.",
+      "raised": [
+        { "from": "challenger-saville", "raise": "Every figure carries a catalog number (S1 to S10) pointing to the source file it came from." },
+        { "from": "challenger-variable-font", "raise": "Hierarchy by scale alone: the redemption rate at display size, labels at caption size, nothing bolded in between." },
+        { "from": "challenger-warm-app", "raise": "Havoc yellow is reserved for the headline figure and for what can be clicked; nothing else takes it." },
+        { "from": "challenger-zoo-map", "raise": "One geometry, the banded card, frames key art, stat lines and charts alike." }
+      ],
+      "html": ".impeccable/mocks/decision/assigned.html"
+    },
+    {
+      "id": "model-pick",
+      "label": "Broadcast Head-to-Head",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Esports broadcast stat packages: lower thirds and head-to-head bars",
+      "thesis": "HH3 and HH2 face off like two teams on a tournament broadcast.",
+      "palette": ["#10234F", "#FFFFFF", "#F2C230", "#1D9BD7", "#9B5CD6"],
+      "materials": ["studio gradient-free panels", "condensed broadcast caps", "head-to-head split bars"],
+      "viewport": "A studio-blue shell; one head-to-head panel where each metric is a split bar, HH3 from the left and HH2 from the right, the winner's value lit.",
+      "risk": "Familiar: dark broadcast graphics sit close to the dark-dashboard default many runs land on."
+      ,"html": ".impeccable/mocks/decision/model-pick.html"
+    },
+    {
+      "id": "challenger-ticket-wallet",
+      "label": "Coupon Book",
+      "verdict": "competitive",
+      "lineage": "Jet-age airline ticket wallets",
+      "thesis": "Each island's weekend is a coupon book: one coupon per clay-system step, stamped when verified.",
+      "palette": ["#FBFBF8", "#1B2F5B", "#C8102E", "#5B3E96"],
+      "materials": ["coupon stock", "carbon numerals", "rubber stamps"],
+      "viewport": "Two coupon rows, one per island, each coupon a funnel step with carbon numerals; a VERIFIED stamp on checked figures and VOID on what was not measured.",
+      "case": "Fuses well: stamped states make verification visible at a glance; loses on audience identification.",
+      "risk": "Travel ephemera has no link to Havoc Hotel or Fortnite.",
+      "html": ".impeccable/mocks/decision/challenger-ticket-wallet.html",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-jet-age-ticket-wallet-hero.webp"
+    },
+    {
+      "id": "challenger-centre-rail",
+      "label": "Twin Columns",
+      "verdict": "competitive",
+      "lineage": "Reference editions set around a centre rail of keys",
+      "thesis": "HH3 and HH2 twinned in two columns around a centre rail of metric names, sources in the margin.",
+      "palette": ["#F1EEE6", "#1A1A1A", "#C2361F"],
+      "materials": ["ruled hairlines", "small caps apparatus", "wide annotation margin"],
+      "viewport": "HH3 figures in the left column, HH2 in the right, metric keys down a vermilion centre rail, each source noted in the outer margin.",
+      "case": "Fuses cleanly: the centre rail is a natural HH3-vs-HH2 comparison; loses on audience identification.",
+      "risk": "Reads like a scholarly edition, far from Fortnite.",
+      "html": ".impeccable/mocks/decision/challenger-centre-rail.html",
+      "hero": "https://impeccable.style/worlds/cards/rw-centre-rail-reference-setting-hero.webp"
+    },
+    {
+      "id": "challenger-variable-font",
+      "label": "Type Specimen",
+      "verdict": "declined",
+      "lineage": "Interactive variable-font specimens",
+      "thesis": "The report as a specimen sheet driven by one slider.",
+      "palette": ["#FAFAF7", "#111111", "#3D5AFE"],
+      "materials": ["flat paper", "giant glyphs"],
+      "viewport": "One giant figure with a slider that morphs the grid.",
+      "case": "Fuses poorly: a client reading results has nothing to slide.",
+      "risk": "Pure typography with no tie to the game.",
+      "kept": "Hierarchy by scale contrast alone.",
+      "hero": "https://impeccable.style/worlds/cards/variable-font-specimen-hero.webp"
+    },
+    {
+      "id": "challenger-warm-app",
+      "label": "Warm Consumer App",
+      "verdict": "declined",
+      "lineage": "Soft-cornered consumer app surfaces",
+      "thesis": "Friendly cards with one action colour.",
+      "palette": ["#F6F1EB", "#FFFFFF", "#FF5A36"],
+      "materials": ["soft radii", "white cards"],
+      "viewport": "A single column of rounded cards and a bottom bar.",
+      "case": "Fuses poorly: reads as the generic look the client should not see.",
+      "risk": "Generic SaaS.",
+      "kept": "One saturated colour reserved for actions.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-warm-consumer-app-surface-hero.webp"
+    },
+    {
+      "id": "challenger-saville",
+      "label": "Catalog Sleeve",
+      "verdict": "declined",
+      "lineage": "Factory Records catalog identity",
+      "thesis": "Every artifact numbered, data drawn as a pulse of white lines.",
+      "palette": ["#0B0B0B", "#FFFFFF", "#E2B13C", "#2E8BC0"],
+      "materials": ["matte black", "white hairline plot"],
+      "viewport": "A black field with a stacked pulse plot of daily dwell.",
+      "case": "Fuses poorly: coded labels hurt clarity for a client.",
+      "risk": "Cryptic by design.",
+      "kept": "Every figure numbered back to its source.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-zoo-map",
+      "label": "Guide Map",
+      "verdict": "declined",
+      "lineage": "Zoo and gardens guide maps",
+      "thesis": "Rooms as swelling lobes of flat colour.",
+      "palette": ["#F5F1E4", "#8ED462", "#FF705D", "#2BA0FF"],
+      "materials": ["flat colour lobes", "capsule labels"],
+      "viewport": "One green lobe per island with capsule labels.",
+      "case": "Fuses poorly: playful map styling reads childish to the client.",
+      "risk": "Too childish.",
+      "kept": "One geometry drives layout, art and state.",
+      "hero": "https://impeccable.style/worlds/cards/aww2-zoo-gardens-guide-map-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean product-analytics dashboard, executed at the best tools' level.",
+    "palette": ["#FFFFFF", "#111827", "#2563EB"],
+    "materials": ["light grid", "KPI tiles", "line and bar charts"],
+    "viewport": "Top bar, a row of KPI tiles, two charts and a sortable table.",
+    "risk": "Indistinguishable from any analytics template by design.",
+    "html": ".impeccable/mocks/decision/canon.html"
+  },
+  "steer": true
+}

@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Archivo+Narrow:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1440px;height:900px;overflow:hidden;background:#F1EEE6;color:#1A1A1A;font-family:'Source Serif 4',serif}
+.top{height:60px;border-bottom:1px solid #1A1A1A;display:flex;align-items:center;padding:0 48px;gap:30px;font:600 13px 'Archivo Narrow';letter-spacing:.12em;text-transform:uppercase}
+.top .on{color:#C2361F}
+.grid{display:grid;grid-template-columns:220px 1fr 150px 1fr 220px;padding:36px 48px;column-gap:0}
+.marg{font:500 12px/1.5 'Archivo Narrow';color:#6A645A;padding:0 18px}
+.col{padding:0 26px}
+.col h2{font-weight:600;font-size:30px;margin-bottom:18px}
+.rail{border-left:1px solid #C2361F;border-right:1px solid #C2361F;text-align:center}
+.rail h2{font:600 12px 'Archivo Narrow';letter-spacing:.14em;color:#C2361F;margin:12px 0 26px}
+.r{height:76px;display:flex;align-items:center;border-bottom:1px solid #D6D0C2}
+.rail .r{justify-content:center;font:600 12px 'Archivo Narrow';letter-spacing:.14em;text-transform:uppercase;color:#C2361F}
+.col .r{font-size:40px}
+.col.l .r{justify-content:flex-end}
+.col .r small{font-size:14px;color:#6A645A;margin:0 10px}
+.marg p{height:76px;display:flex;align-items:center;border-bottom:1px solid transparent}
+</style></head><body>
+<div class="top"><span>Clayface weekend analytics</span><span class="on">Overview</span><span>Time</span><span>Days</span><span>Context</span><span>Sources</span><span style="margin-left:auto">TeraCreators · Oct 16–18, 2026</span></div>
+<div class="grid">
+<div class="marg"><p style="height:66px"></p><p>S1 hh3_analytics_device.csv</p><p>S1 clayface_clay_collected</p><p>S1 goal_reached, once per player</p><p>S1 weapon_redeemed</p><p>calc: redeemed ÷ reached</p></div>
+<div class="col l"><h2 style="text-align:right">Havoc Hotel 3</h2><div class="r">30,455</div><div class="r">18,043</div><div class="r">307</div><div class="r">242</div><div class="r">78.8%</div></div>
+<div class="rail"><h2>KEY</h2><div class="r">Fights</div><div class="r">Clays</div><div class="r">Reached 20</div><div class="r">Redeemed</div><div class="r">Rate</div></div>
+<div class="col"><h2>Havoc Hotel 2</h2><div class="r">45,115</div><div class="r">23,886</div><div class="r">262</div><div class="r">213</div><div class="r">81.3%</div></div>
+<div class="marg"><p style="height:66px"></p><p>S2 hh2_analytics_device.csv</p><p>S2 clayface_clay_collected</p><p>S2 goal_reached, once per player</p><p>S2 weapon_redeemed</p><p>calc: redeemed ÷ reached</p></div>
+</div></body></html>

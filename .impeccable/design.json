@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T11:10:00-05:00",
+  "title": "Design System: Clayface Weekend Analytics",
+  "extensions": {
+    "colorMeta": {
+      "card-stock": { "role": "neutral", "displayName": "Card Stock", "canonical": "#EEF0F2", "tonalRamp": ["oklch(15% 0.003 247)", "oklch(25% 0.003 247)", "oklch(35% 0.003 247)", "oklch(45% 0.003 247)", "oklch(55% 0.003 247)", "oklch(65% 0.003 247)", "oklch(80% 0.003 247)", "oklch(95.5% 0.003 247)"] },
+      "card-face": { "role": "neutral", "displayName": "Card Face", "canonical": "#FFFFFF", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(45% 0 0)", "oklch(55% 0 0)", "oklch(65% 0 0)", "oklch(80% 0 0)", "oklch(100% 0 0)"] },
+      "ink-navy": { "role": "neutral", "displayName": "Ink Navy", "canonical": "#14213D", "tonalRamp": ["oklch(15% 0.05 265)", "oklch(25% 0.06 265)", "oklch(35% 0.06 265)", "oklch(45% 0.05 265)", "oklch(55% 0.04 265)", "oklch(65% 0.03 265)", "oklch(80% 0.02 265)", "oklch(95% 0.01 265)"] },
+      "ink-slate": { "role": "neutral", "displayName": "Ink Slate", "canonical": "#44506A", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.035 265)", "oklch(35% 0.04 265)", "oklch(44% 0.04 265)", "oklch(55% 0.035 265)", "oklch(65% 0.03 265)", "oklch(80% 0.02 265)", "oklch(95% 0.01 265)"] },
+      "ink-fineprint": { "role": "neutral", "displayName": "Fine-print Ink", "canonical": "#5F6B84", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.035 265)", "oklch(35% 0.04 265)", "oklch(45% 0.04 265)", "oklch(53% 0.04 265)", "oklch(65% 0.03 265)", "oklch(80% 0.02 265)", "oklch(95% 0.01 265)"] },
+      "on-ink": { "role": "neutral", "displayName": "On-ink", "canonical": "#FFFFFF", "tonalRamp": ["oklch(15% 0 0)", "oklch(25% 0 0)", "oklch(35% 0 0)", "oklch(45% 0 0)", "oklch(55% 0 0)", "oklch(65% 0 0)", "oklch(80% 0 0)", "oklch(100% 0 0)"] },
+      "on-ink-muted": { "role": "neutral", "displayName": "On-ink Muted", "canonical": "#B9C2D6", "tonalRamp": ["oklch(15% 0.03 265)", "oklch(25% 0.03 265)", "oklch(35% 0.03 265)", "oklch(45% 0.03 265)", "oklch(55% 0.03 265)", "oklch(65% 0.03 265)", "oklch(81% 0.03 265)", "oklch(95% 0.01 265)"] },
+      "rule": { "role": "neutral", "displayName": "Rule", "canonical": "#D6DAE0", "tonalRamp": ["oklch(15% 0.01 255)", "oklch(25% 0.01 255)", "oklch(35% 0.01 255)", "oklch(45% 0.01 255)", "oklch(55% 0.01 255)", "oklch(65% 0.01 255)", "oklch(88.5% 0.01 255)", "oklch(95% 0.005 255)"] },
+      "rule-faint": { "role": "neutral", "displayName": "Rule Faint", "canonical": "#E7EAEE", "tonalRamp": ["oklch(15% 0.006 255)", "oklch(25% 0.006 255)", "oklch(35% 0.006 255)", "oklch(45% 0.006 255)", "oklch(55% 0.006 255)", "oklch(65% 0.006 255)", "oklch(80% 0.006 255)", "oklch(93.5% 0.006 255)"] },
+      "band-hh3-blue": { "role": "secondary", "displayName": "HH3 Band Blue", "canonical": "#1D6FA3", "tonalRamp": ["oklch(15% 0.05 245)", "oklch(25% 0.08 245)", "oklch(35% 0.1 245)", "oklch(45% 0.11 245)", "oklch(52% 0.11 245)", "oklch(65% 0.1 245)", "oklch(80% 0.06 245)", "oklch(95% 0.02 245)"] },
+      "band-hh2-violet": { "role": "secondary", "displayName": "HH2 Band Violet", "canonical": "#7A3FA8", "tonalRamp": ["oklch(15% 0.06 305)", "oklch(25% 0.1 305)", "oklch(35% 0.14 305)", "oklch(48% 0.16 305)", "oklch(55% 0.15 305)", "oklch(65% 0.12 305)", "oklch(80% 0.07 305)", "oklch(95% 0.02 305)"] },
+      "havoc-yellow": { "role": "primary", "displayName": "Havoc Yellow", "canonical": "#F2C230", "tonalRamp": ["oklch(15% 0.03 88)", "oklch(25% 0.05 88)", "oklch(35% 0.07 88)", "oklch(45% 0.09 88)", "oklch(55% 0.11 88)", "oklch(65% 0.13 88)", "oklch(84% 0.16 88)", "oklch(95% 0.06 88)"] },
+      "not-measured-red": { "role": "tertiary", "displayName": "Not-Measured Red", "canonical": "#B5341C", "tonalRamp": ["oklch(15% 0.05 33)", "oklch(25% 0.09 33)", "oklch(35% 0.13 33)", "oklch(45% 0.16 33)", "oklch(52% 0.17 33)", "oklch(65% 0.14 33)", "oklch(80% 0.08 33)", "oklch(95% 0.02 33)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The redemption-rate stamp, once per island." },
+      "headline": { "displayName": "Headline", "purpose": "Panel titles, uppercase." },
+      "stat": { "displayName": "Stat", "purpose": "Stat-line figures; 2rem in the both-islands strip." },
+      "title": { "displayName": "Title", "purpose": "Island name tags and the shell title, uppercase." },
+      "lede": { "displayName": "Lede", "purpose": "The one-sentence answer at the top, max 46ch." },
+      "body": { "displayName": "Body", "purpose": "Default text, tabular numerals." },
+      "note": { "displayName": "Note", "purpose": "Panel notes and stamp notes, slate, max 60ch." },
+      "label": { "displayName": "Label", "purpose": "Stat labels and table headers, uppercase, condensed to wdth 75." },
+      "fine": { "displayName": "Fine", "purpose": "Fine-print source lines beside catalog numbers." },
+      "mono": { "displayName": "Mono", "purpose": "File names, event keys and SHA-256 hashes." }
+    },
+    "shadows": [
+      { "name": "card-lift", "value": "0 1px 2px rgba(20,33,61,.06), 0 8px 24px -12px rgba(20,33,61,.18)", "purpose": "Island cards only." },
+      { "name": "identity-band", "value": "inset 0 10px 0 var(--band)", "purpose": "10px top band on every card and panel; navy on panels, island hue on art strips." },
+      { "name": "stamp-rim", "value": "inset 0 0 0 2px rgba(20,33,61,.12)", "purpose": "Pressed-ink edge of the yellow stamp." },
+      { "name": "tip-float", "value": "0 10px 30px -8px rgba(20,33,61,.45)", "purpose": "Citation tooltip." },
+      { "name": "citation-underline", "value": "0 3px 0 -1px #F2C230", "purpose": "Cited figure on hover or focus." },
+      { "name": "focus-ring", "value": "outline: 3px solid #F2C230; outline-offset: 2px", "purpose": "Every focusable element." }
+    ],
+    "motion": [
+      { "name": "ease-house", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "All state transitions and the stamp press." },
+      { "name": "duration-state", "value": "0.2s", "purpose": "Tab colour, catalog chip and citation underline transitions." },
+      { "name": "stamp-press", "value": "0.9s ease-house; from scale(1.08) rotate(-2deg) with a lifted shadow to rest; second card +0.12s", "purpose": "The one authored moment, fired once when data loads; disabled under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "56rem" },
+      { "name": "phone", "value": "34rem" },
+      { "name": "island-column-min", "value": "30rem" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Shell Navigation",
+      "kind": "nav",
+      "refersTo": "shell",
+      "description": "Sticky ink-navy bar with condensed uppercase tabs; the active tab is Havoc yellow with a 3px underline.",
+      "html": "<header class=\"ds-shell\"><span class=\"ds-shell-title\">Clayface Weekend Analytics</span><nav class=\"ds-tabs\"><a href=\"#\" class=\"on\">Overview</a><a href=\"#\">Time</a><a href=\"#\">Days</a><a href=\"#\">Sources</a></nav></header>",
+      "css": ".ds-shell { display: flex; align-items: center; gap: 2rem; min-height: 4rem; padding: 0 24px; background: #14213D; color: #FFFFFF; font-family: 'Archivo', system-ui, sans-serif; } .ds-shell-title { font-family: 'Big Shoulders Display', 'Bahnschrift', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 1.625rem; letter-spacing: .02em; text-transform: uppercase; white-space: nowrap; } .ds-tabs { display: flex; gap: 1.5rem; align-self: stretch; } .ds-tabs a { display: flex; align-items: center; font-stretch: 75%; font-weight: 600; font-size: .875rem; letter-spacing: .08em; text-transform: uppercase; color: #B9C2D6; text-decoration: none; border-bottom: 3px solid transparent; padding-top: 3px; transition: color .2s cubic-bezier(.16,1,.3,1), border-color .2s cubic-bezier(.16,1,.3,1); } .ds-tabs a:hover { color: #FFFFFF; } .ds-tabs a.on { color: #F2C230; border-bottom-color: #F2C230; } .ds-tabs a:focus-visible { outline: 3px solid #F2C230; outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Island Card",
+      "kind": "card",
+      "refersTo": "island-card",
+      "description": "Signature banded card: art strip with name tag, four-cell stat line, yellow stamp, fine-print source line.",
+      "html": "<article class=\"ds-island\"><div class=\"ds-island-front\"><div class=\"ds-island-tag\"><strong>Havoc Hotel 3</strong><span>v109 · live Oct 16</span></div></div><dl class=\"ds-statline\"><div><dt>Fights</dt><dd>30,455</dd></div><div><dt>Clays collected</dt><dd>18,043</dd></div><div><dt>Reached 20</dt><dd>307</dd></div><div><dt>Redeemed</dt><dd>242</dd></div></dl><div class=\"ds-stamp-row\"><p class=\"ds-stamp\">78.8%</p><p class=\"ds-stamp-note\">of players who reached 20 clays redeemed the Clay Goo Gun.</p></div><p class=\"ds-fine\"><a class=\"ds-cat\" href=\"#\">S1</a>hh3_analytics_device.csv · Creator Portal export</p></article>",
+      "css": ".ds-island { --band: #1D6FA3; background: #FFFFFF; border: 1px solid #D6DAE0; border-radius: 14px; overflow: hidden; font-family: 'Archivo', system-ui, sans-serif; color: #14213D; font-variant-numeric: tabular-nums; box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 8px 24px -12px rgba(20,33,61,.18); } .ds-island-front { position: relative; height: 10.5rem; background: linear-gradient(135deg, #1D6FA3, #14213D); box-shadow: inset 0 10px 0 var(--band); } .ds-island-tag { position: absolute; left: 1rem; top: calc(10px + .75rem); display: flex; align-items: baseline; gap: .75rem; background: var(--band); color: #FFFFFF; border-radius: 8px; padding: .375rem .75rem .375rem .875rem; } .ds-island-tag strong { font-family: 'Big Shoulders Display', 'Bahnschrift', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 1.75rem; line-height: 1; letter-spacing: .02em; text-transform: uppercase; } .ds-island-tag span { font-size: .75rem; font-stretch: 85%; letter-spacing: .04em; color: rgba(255,255,255,.86); } .ds-statline { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); margin: 0; border-bottom: 1px solid #D6DAE0; } .ds-statline > div { padding: .875rem 1rem 1rem; border-right: 1px solid #E7EAEE; } .ds-statline > div:last-child { border-right: 0; } .ds-statline dt { font-stretch: 75%; font-weight: 600; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: #5F6B84; } .ds-statline dd { margin: .25rem 0 0; font-family: 'Big Shoulders Display', 'Bahnschrift', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 2.25rem; line-height: 1.05; } .ds-stamp-row { display: flex; align-items: center; gap: 1.25rem; padding: 1.25rem 1rem; } .ds-stamp { margin: 0; font-family: 'Big Shoulders Display', 'Bahnschrift', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 4rem; line-height: .95; background: #F2C230; color: #14213D; border-radius: 10px; padding: .375rem 1rem .25rem; box-shadow: inset 0 0 0 2px rgba(20,33,61,.12); } .ds-stamp-note { margin: 0; font-size: .9375rem; line-height: 1.45; color: #44506A; max-width: 34ch; } .ds-fine { display: flex; align-items: center; gap: .5rem; margin: 0; padding: .625rem 1rem .75rem; font-size: .75rem; color: #5F6B84; border-top: 1px dashed #D6DAE0; } .ds-cat { display: inline-flex; align-items: center; justify-content: center; min-width: 1.75rem; height: 1.25rem; padding: 0 .375rem; border-radius: 5px; background: #14213D; color: #FFFFFF; font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: .8125rem; letter-spacing: .04em; text-decoration: none; transition: background .2s cubic-bezier(.16,1,.3,1), color .2s cubic-bezier(.16,1,.3,1), transform .2s cubic-bezier(.16,1,.3,1); } .ds-cat:hover { background: #F2C230; color: #14213D; transform: translateY(-1px); } .ds-cat:focus-visible { outline: 3px solid #F2C230; outline-offset: 2px; }"
+    },
+    {
+      "name": "Redemption Stamp",
+      "kind": "custom",
+      "refersTo": "stamp",
+      "description": "The headline figure on Havoc yellow; presses in once on data load.",
+      "html": "<p class=\"ds-stamp-solo\">81.3%</p>",
+      "css": ".ds-stamp-solo { display: inline-block; margin: 0; font-family: 'Big Shoulders Display', 'Bahnschrift', 'Arial Narrow', sans-serif; font-weight: 800; font-size: 4.75rem; line-height: .95; font-variant-numeric: tabular-nums; background: #F2C230; color: #14213D; border-radius: 10px; padding: .375rem 1rem .25rem; box-shadow: inset 0 0 0 2px rgba(20,33,61,.12); } @media (prefers-reduced-motion: no-preference) { .ds-stamp-solo { animation: ds-press .9s cubic-bezier(.16,1,.3,1) both; } } @keyframes ds-press { 0% { transform: scale(1.08) rotate(-2deg); box-shadow: inset 0 0 0 2px rgba(20,33,61,.12), 0 14px 22px -10px rgba(20,33,61,.35); } 100% { transform: none; box-shadow: inset 0 0 0 2px rgba(20,33,61,.12), 0 0 0 0 rgba(20,33,61,0); } }"
+    },
+    {
+      "name": "Catalog Number",
+      "kind": "chip",
+      "refersTo": "catalog-number",
+      "description": "Navy S1 to S4 chip linking a figure to its source row; yellow when hovered or lit.",
+      "html": "<span class=\"ds-fine-line\"><a class=\"ds-cat-chip\" href=\"#\">S1</a><a class=\"ds-cat-chip lit\" href=\"#\">S2</a>Six clayface_* columns per day</span>",
+      "css": ".ds-fine-line { display: inline-flex; align-items: center; gap: .5rem; font-family: 'Archivo', system-ui, sans-serif; font-size: .75rem; color: #5F6B84; } .ds-cat-chip { display: inline-flex; align-items: center; justify-content: center; min-width: 1.75rem; height: 1.25rem; padding: 0 .375rem; border-radius: 5px; background: #14213D; color: #FFFFFF; font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: .8125rem; letter-spacing: .04em; text-decoration: none; transition: background .2s cubic-bezier(.16,1,.3,1), color .2s cubic-bezier(.16,1,.3,1), transform .2s cubic-bezier(.16,1,.3,1); } .ds-cat-chip:hover, .ds-cat-chip.lit { background: #F2C230; color: #14213D; } .ds-cat-chip.lit { transform: translateY(-1px); } .ds-cat-chip:focus-visible { outline: 3px solid #F2C230; outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Citation Tooltip",
+      "kind": "custom",
+      "refersTo": "citation-tooltip",
+      "description": "Cited figure with yellow hover underline and a navy tip naming catalog id, file and field.",
+      "html": "<span class=\"ds-cite\" tabindex=\"0\">30,455</span><div class=\"ds-tip\"><b>S1</b>clayface_defeated<span>hh3_analytics_device.csv · map=HH3</span></div>",
+      "css": ".ds-cite { font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: 2.25rem; color: #14213D; cursor: help; border-radius: 4px; transition: box-shadow .2s cubic-bezier(.16,1,.3,1); } .ds-cite:hover, .ds-cite:focus-visible { box-shadow: 0 3px 0 -1px #F2C230; outline: none; } .ds-tip { margin-top: .75rem; max-width: 22rem; background: #14213D; color: #FFFFFF; border-radius: 8px; padding: .5rem .75rem; font-family: 'Archivo', system-ui, sans-serif; font-size: .8125rem; line-height: 1.4; box-shadow: 0 10px 30px -8px rgba(20,33,61,.45); } .ds-tip b { font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: .9375rem; color: #F2C230; letter-spacing: .03em; margin-right: .375rem; } .ds-tip span { display: block; color: #B9C2D6; }"
+    },
+    {
+      "name": "Both-Islands Strip",
+      "kind": "card",
+      "refersTo": "both-strip",
+      "description": "Full-width navy card with combined totals.",
+      "html": "<section class=\"ds-both\"><h2>Both islands</h2><dl><div><dt>Fights</dt><dd>75,570</dd></div><div><dt>Clays collected</dt><dd>41,929</dd></div><div><dt>Redeemed</dt><dd>455</dd></div></dl></section>",
+      "css": ".ds-both { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 1rem 2.5rem; background: #14213D; color: #FFFFFF; border-radius: 14px; padding: 1.125rem 1.5rem; font-family: 'Archivo', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-both h2 { margin: 0; font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: 1.25rem; letter-spacing: .04em; text-transform: uppercase; } .ds-both dl { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1rem 1.5rem; margin: 0; } .ds-both dt { font-stretch: 75%; font-weight: 600; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: #B9C2D6; } .ds-both dd { margin: 0; font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: 2rem; line-height: 1.1; }"
+    },
+    {
+      "name": "Panel with Table",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "White card with navy 10px band, headline, slate intro and a condensed-header table with island chips.",
+      "html": "<section class=\"ds-panel\"><header class=\"ds-panel-head\"><h2>Day by day</h2><p>Six clayface columns per day. The first day is partial.</p></header><div class=\"ds-panel-body\"><table><thead><tr><th>Island</th><th class=\"num\">Fights</th><th class=\"num\">Redeemed</th></tr></thead><tbody><tr><td><span class=\"ds-chip h3\">Havoc Hotel 3</span></td><td class=\"num\">30,455</td><td class=\"num\">242</td></tr><tr><td><span class=\"ds-chip h2\">Havoc Hotel 2</span></td><td class=\"num\">45,115</td><td class=\"num\">213</td></tr></tbody></table></div></section>",
+      "css": ".ds-panel { background: #FFFFFF; border: 1px solid #D6DAE0; border-radius: 14px; overflow: hidden; box-shadow: inset 0 10px 0 #14213D; font-family: 'Archivo', system-ui, sans-serif; color: #14213D; font-variant-numeric: tabular-nums; } .ds-panel-head { padding: calc(1.25rem + 10px) 1.25rem .5rem; display: grid; gap: .375rem; } .ds-panel-head h2 { margin: 0; font-family: 'Big Shoulders Display', 'Bahnschrift', sans-serif; font-weight: 800; font-size: 2rem; line-height: 1.05; letter-spacing: .01em; text-transform: uppercase; } .ds-panel-head p { margin: 0; color: #44506A; max-width: 70ch; } .ds-panel-body { padding: .75rem 1.25rem 1.25rem; } .ds-panel table { width: 100%; border-collapse: collapse; font-size: .9375rem; } .ds-panel th { text-align: left; font-stretch: 75%; font-weight: 600; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: #5F6B84; padding: .5rem .75rem; border-bottom: 2px solid #14213D; } .ds-panel td { padding: .5rem .75rem; border-bottom: 1px solid #E7EAEE; } .ds-panel tbody tr:last-child td { border-bottom: 0; } .ds-panel .num { text-align: right; } .ds-chip { display: inline-flex; align-items: center; gap: .4rem; font-weight: 600; } .ds-chip::before { content: ''; width: .5rem; height: .5rem; border-radius: 50%; background: #5F6B84; } .ds-chip.h3::before { background: #1D6FA3; } .ds-chip.h2::before { background: #7A3FA8; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Card Back Stat Line",
+    "overview": "Each island is a collectible card and the page is its back. The system is built from one banded-card geometry (white face, 14px corners, a 10px band of identity colour across the top) that frames key art, stat lines, charts and tables alike. The ground is coated card stock; the shell and the cross-island strip are ink navy. Numbers are set in condensed sports numerals and carry the hierarchy by scale alone; text is a variable grotesque that narrows for labels.\n\nTrust is the visual through-line. Every figure on the page carries a fine-print catalog number (S1 to S10) that leads to its source file, and hovering a figure lights that number in Havoc yellow and opens a navy citation tip. Yellow is rare by design: it marks the headline figure and the things a hand can act on. The density is a sports card's: tight stat cells divided by hairlines, dashed fine print at the foot, nothing ornamental.\n\nThe system refuses the KPI-tile grid where every number weighs the same; the redemption rate is stamped, the counts sit in a stat line, the context sits in panels.",
+    "keyCharacteristics": [
+      "One banded-card geometry for every container, with the band colour naming its owner.",
+      "Condensed 800-weight numerals for every figure, tabular throughout.",
+      "A catalog number on every figure, chart and table, linked to its source row.",
+      "Havoc yellow reserved for the headline stamp, active and hovered interactive states, focus and selection.",
+      "One authored motion: the stamp press."
+    ],
+    "rules": [
+      { "name": "The Headline-or-Hand Rule", "body": "Havoc yellow appears only on the headline stamp and on interactive state (active, hover, lit, focus, selection). A static secondary figure never turns yellow.", "section": "colors" },
+      { "name": "The One Band Per Island Rule", "body": "HH3 is always band blue and HH2 always band violet, in the card band, name tag, chart series, legend and table chip. Rooms vs lobby is shown by the same hue at full and 35% opacity, never by a new colour.", "section": "colors" },
+      { "name": "The Red Means Unmeasured Rule", "body": "Not-measured red marks missing or unavailable data only; it is never decoration or emphasis.", "section": "colors" },
+      { "name": "The Numerals Wear Shoulders Rule", "body": "Every reported figure is Big Shoulders Display 800; Archivo never sets a headline number, and Big Shoulders never sets prose.", "section": "typography" },
+      { "name": "The Condensed Label Rule", "body": "A label names the figure beneath it, set narrow (wdth 75), 600, tracked 0.1em, uppercase, in fine-print ink. Labels never stand above a heading as an eyebrow.", "section": "typography" },
+      { "name": "The 10px Band Rule", "body": "Every card and panel opens with a 10px band in its owner's colour: island blue or violet for island cards, ink navy for shared panels.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do frame every new section as a white banded card (14px corners, 10px top band, 1px rule border).",
+      "Do give every figure, chart and table cell a catalog number and citation tip pointing to its source file.",
+      "Do set every reported number in Big Shoulders Display 800 with tabular figures.",
+      "Do keep HH3 band blue and HH2 band violet in every place that island appears, and separate rooms from lobby with 35% opacity of the same hue.",
+      "Do use the house ease (cubic-bezier(.16, 1, .3, 1)) at 0.2s for state changes and keep the stamp press the only authored animation.",
+      "Do keep hashes and file names in monospace, selectable in full."
+    ],
+    "donts": [
+      "Don't use Havoc yellow on static secondary figures, deltas or decoration; it belongs to the stamp and interactive state.",
+      "Don't lay out figures as a grid of equal KPI tiles; the stamp outranks the stat line, which outranks panel detail.",
+      "Don't use not-measured red for anything except missing or unavailable data.",
+      "Don't put uppercase labels above headings as eyebrows; labels name figures only.",
+      "Don't add drop shadows to panels or introduce zero-blur offset shadows beyond the citation underline.",
+      "Don't introduce a new hue for a series or state; reuse the island hues, navy and the rules."
+    ]
+  }
+}

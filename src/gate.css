@@ -1,0 +1,25 @@
+/* Sign-in card for the standalone file: the same banded card, opened on both islands' art. */
+.ccb.gate { min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; padding: var(--gap); }
+.ccb .gate-wrap { width: min(100%, 28rem); }
+.ccb .gate-card { background: var(--card); border: 1px solid var(--rule); border-radius: var(--r); overflow: hidden; box-shadow: 0 1px 2px rgba(20, 33, 61, .06), 0 8px 24px -12px rgba(20, 33, 61, .18); }
+.ccb .gate-art { display: grid; grid-auto-rows: 6rem; }
+.ccb .gate-art span { background-size: cover; background-position: center 88%; }
+.ccb .gate-art .art-hh3 { background-color: var(--hh3); box-shadow: inset 0 10px 0 var(--hh3); }
+.ccb .gate-art .art-hh2 { background-color: var(--hh2); box-shadow: inset 0 10px 0 var(--hh2); }
+.ccb .gate-body { padding: 1.5rem 1.5rem 1.25rem; display: grid; gap: 1rem; }
+.ccb .gate-title { font-family: var(--f-num); font-weight: 800; font-size: 2rem; line-height: 1; letter-spacing: .01em; text-transform: uppercase; }
+.ccb .gate-lede { color: var(--ink-2); font-size: .9375rem; margin-bottom: .25rem; }
+.ccb .gate-field { display: grid; gap: .375rem; }
+.ccb .gate-field span { font-stretch: 75%; font-weight: 600; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+.ccb .gate-field input { font: inherit; font-size: 1rem; color: var(--ink); caret-color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: .625rem .75rem; min-height: 2.75rem; transition: border-color .2s var(--ease); }
+.ccb .gate-field input:hover { border-color: var(--ink-3); }
+.ccb .gate-field input:focus-visible { border-color: var(--ink); outline-offset: 1px; border-radius: 8px; }
+.ccb .gate-error[hidden] { display: none; }
+.ccb .gate-error { display: flex; align-items: baseline; gap: .5rem; font-size: .875rem; color: var(--ink); }
+.ccb .gate-error::before { content: ""; flex: none; width: .375rem; height: .375rem; border-radius: 50%; background: var(--void); transform: translateY(-.1rem); }
+.ccb .gate-go { margin-top: .25rem; min-height: 3rem; border: 0; border-radius: 8px; background: var(--gold); color: var(--ink); font-family: var(--f-num); font-weight: 800; font-size: 1.25rem; letter-spacing: .04em; text-transform: uppercase; cursor: pointer; box-shadow: inset 0 0 0 2px rgba(20, 33, 61, .12); transition: filter .2s var(--ease), transform .2s var(--ease); }
+.ccb .gate-go:hover { filter: brightness(.95); }
+.ccb .gate-go:active { transform: translateY(1px); }
+.ccb .gate-go:disabled { cursor: progress; filter: saturate(.6); }
+/* After sign-in focus moves to the report title for screen readers; no ring on a heading. */
+.ccb .title:focus { outline: none; }

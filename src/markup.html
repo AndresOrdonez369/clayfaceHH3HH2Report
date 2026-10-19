@@ -1,0 +1,157 @@
+<div class="ccb" id="report">
+  <header class="shell">
+    <div class="shell-in">
+      <h1 class="title" id="title">Clayface Weekend Analytics</h1>
+      <nav class="tabs" aria-label="Sections">
+        <a href="#overview" class="on">Overview</a>
+        <a href="#time">Time</a>
+        <a href="#days">Days</a>
+        <a href="#method">Events</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <p class="credit">TeraCreators · <span data-source="clayface_totals" data-field="period" data-where="map=Both" data-fmt="text">—</span></p>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="overview" id="overview" aria-label="Overview">
+      <p class="lede" id="takeaway"><b data-cite data-source="clayface_totals" data-field="redeemed" data-where="map=Both" data-fmt="int">—</b> players unlocked the Clay Goo Gun across both islands, <b data-cite data-source="clayface_totals" data-field="redeemRate" data-where="map=Both" data-fmt="pct">—</b> of everyone who reached 20 clays during the first weekend of tracking.</p>
+
+      <div class="islands">
+        <article class="island" style="--band: var(--hh3)" aria-labelledby="hh3-name">
+          <div class="island-front art-hh3">
+            <div class="island-tag"><h2 id="hh3-name">Havoc Hotel 3</h2><span class="ver" data-source="tracking_start" data-field="label" data-where="map=HH3" data-fmt="text">—</span></div>
+          </div>
+          <dl class="statline">
+            <div><dt>Fights</dt><dd data-cite data-source="clayface_totals" data-field="defeated" data-where="map=HH3" data-fmt="int">—</dd></div>
+            <div><dt>Clays collected</dt><dd data-cite data-source="clayface_totals" data-field="clays" data-where="map=HH3" data-fmt="int">—</dd></div>
+            <div><dt>Reached 20</dt><dd data-cite data-source="clayface_totals" data-field="reached" data-where="map=HH3" data-fmt="int">—</dd></div>
+            <div><dt>Redeemed</dt><dd data-cite data-source="clayface_totals" data-field="redeemed" data-where="map=HH3" data-fmt="int">—</dd></div>
+          </dl>
+          <div class="stamp-row">
+            <p class="stamp" data-cite data-source="clayface_totals" data-field="redeemRate" data-where="map=HH3" data-fmt="pct">—</p>
+            <p class="stamp-note">of players who reached 20 clays redeemed the Clay Goo Gun. Each fight drops one clay; <b data-cite data-source="clayface_totals" data-field="fightersPerClay" data-where="map=HH3" data-fmt="dec">—</b> players took part per clay collected.</p>
+          </div>
+          <p class="fine"><a class="cat" href="#src-S1" data-cat="S1">S1</a>hh3_analytics_device.csv · Creator Portal export, Oct 19, 2026</p>
+        </article>
+
+        <article class="island" style="--band: var(--hh2)" aria-labelledby="hh2-name">
+          <div class="island-front art-hh2">
+            <div class="island-tag"><h2 id="hh2-name">Havoc Hotel 2</h2><span class="ver" data-source="tracking_start" data-field="label" data-where="map=HH2" data-fmt="text">—</span></div>
+          </div>
+          <dl class="statline">
+            <div><dt>Fights</dt><dd data-cite data-source="clayface_totals" data-field="defeated" data-where="map=HH2" data-fmt="int">—</dd></div>
+            <div><dt>Clays collected</dt><dd data-cite data-source="clayface_totals" data-field="clays" data-where="map=HH2" data-fmt="int">—</dd></div>
+            <div><dt>Reached 20</dt><dd data-cite data-source="clayface_totals" data-field="reached" data-where="map=HH2" data-fmt="int">—</dd></div>
+            <div><dt>Redeemed</dt><dd data-cite data-source="clayface_totals" data-field="redeemed" data-where="map=HH2" data-fmt="int">—</dd></div>
+          </dl>
+          <div class="stamp-row">
+            <p class="stamp" data-cite data-source="clayface_totals" data-field="redeemRate" data-where="map=HH2" data-fmt="pct">—</p>
+            <p class="stamp-note">of players who reached 20 clays redeemed the Clay Goo Gun. Each fight drops one clay; <b data-cite data-source="clayface_totals" data-field="fightersPerClay" data-where="map=HH2" data-fmt="dec">—</b> players took part per clay collected.</p>
+          </div>
+          <p class="fine"><a class="cat" href="#src-S2" data-cat="S2">S2</a>hh2_analytics_device.csv · Creator Portal export, Oct 19, 2026</p>
+        </article>
+      </div>
+
+      <section class="both" aria-labelledby="both-h">
+        <h2 id="both-h">Both islands</h2>
+        <dl>
+          <div><dt>Fights</dt><dd data-cite data-source="clayface_totals" data-field="defeated" data-where="map=Both" data-fmt="int">—</dd></div>
+          <div><dt>Clays collected</dt><dd data-cite data-source="clayface_totals" data-field="clays" data-where="map=Both" data-fmt="int">—</dd></div>
+          <div><dt>Reached 20</dt><dd data-cite data-source="clayface_totals" data-field="reached" data-where="map=Both" data-fmt="int">—</dd></div>
+          <div><dt>Redeemed</dt><dd data-cite data-source="clayface_totals" data-field="redeemed" data-where="map=Both" data-fmt="int">—</dd></div>
+          <div><dt>Hours with Clayface</dt><dd data-cite data-source="clayface_totals" data-field="totalHours" data-where="map=Both" data-fmt="hours">—</dd></div>
+        </dl>
+      </section>
+    </section>
+
+    <section class="panel" id="time" aria-labelledby="time-h">
+      <header class="panel-head">
+        <h2 id="time-h">Time with Clayface content</h2>
+        <p>Hours players spent in the run rooms dressed with Clayface assets (solid) and in the main lobby and Event Weapons hall (light). The first day is partial.</p>
+      </header>
+      <div class="panel-body two">
+        <figure>
+          <div class="legend"><span><i class="sw h3"></i>Havoc Hotel 3</span><span><i class="sw h2"></i>Havoc Hotel 2</span><span><i class="sw"></i>Hotel rooms</span><span><i class="sw light"></i>Lobby areas</span></div>
+          <div class="chart" id="dwell-chart" data-source="clayface_daily" role="img" aria-label="Hours with Clayface content per day, hotel rooms and lobby areas, by island"></div>
+        </figure>
+        <div>
+          <h3>Weekend totals</h3>
+          <div class="tablebox">
+            <table id="time-table" data-source="clayface_totals" data-row-key="map">
+              <thead><tr><th data-field="map">Island</th><th class="num" data-field="roomHours">Rooms (h)</th><th class="num" data-field="lobbyHours">Lobby (h)</th><th class="num" data-field="roomShare">In rooms</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="note" style="margin-top:1rem">On full days Havoc Hotel 2 averaged <b data-cite data-source="clayface_totals" data-field="hoursPerFullDay" data-where="map=HH2" data-fmt="hours">—</b> hours a day with Clayface content and Havoc Hotel 3 <b data-cite data-source="clayface_totals" data-field="hoursPerFullDay" data-where="map=HH3" data-fmt="hours">—</b>. Time is dwell events × 5 seconds.</p>
+        </div>
+      </div>
+      <p class="fine"><a class="cat" href="#src-S1" data-cat="S1">S1</a><a class="cat" href="#src-S2" data-cat="S2">S2</a>clayface_dwell_rooms_5s and clayface_dwell_lobby_5s</p>
+    </section>
+
+    <section class="panel" id="days" aria-labelledby="days-h">
+      <header class="panel-head">
+        <h2 id="days-h">Day by day</h2>
+        <p>Every Clayface event per island and day. The first day only covers the hours after each update went live.</p>
+      </header>
+      <div class="panel-body">
+        <div class="tablebox">
+          <table id="daily-table" data-source="clayface_daily" data-row-key="key">
+            <thead><tr><th data-field="map">Island</th><th data-field="day">Day</th><th class="num" data-field="defeated">Fights</th><th class="num" data-field="clays">Clays</th><th class="num" data-field="reached">Reached 20</th><th class="num" data-field="redeemed">Redeemed</th><th class="num" data-field="roomHours">Rooms (h)</th><th class="num" data-field="lobbyHours">Lobby (h)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <p class="fine"><a class="cat" href="#src-S1" data-cat="S1">S1</a><a class="cat" href="#src-S2" data-cat="S2">S2</a>Six clayface_* columns per day</p>
+    </section>
+
+    <section class="panel" id="method" aria-labelledby="method-h">
+      <header class="panel-head">
+        <h2 id="method-h">What each event counts</h2>
+        <p>The six analytics events TeraCreators built into the Clayface event. The export gives daily totals, not unique players; goals reached and redemptions fire once per player, so those two equal players.</p>
+      </header>
+      <div class="panel-body">
+        <dl class="defs">
+          <dt>clayface_defeated</dt><dd>One player was in the room when Clayface was defeated. A three-player fight adds three.</dd>
+          <dt>clayface_clay_collected</dt><dd>One clay was picked up, including pickups after a player already has 20.</dd>
+          <dt>clayface_clay_goal_reached</dt><dd>One player reached 20 clays. Players who passed 20 before tracking started are not in it.</dd>
+          <dt>clayface_weapon_redeemed</dt><dd>One player claimed the Clay Goo Gun, from the banner or the weapon station.</dd>
+          <dt>clayface_dwell_rooms_5s</dt><dd>Five seconds spent by one player in a run room with Clayface assets while the event is live.</dd>
+          <dt>clayface_dwell_lobby_5s</dt><dd>Five seconds spent by one player in the main lobby or the Event Weapons hall while the event is live. Includes idle players standing there.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="panel" id="sources" aria-labelledby="sources-h">
+      <header class="panel-head">
+        <h2 id="sources-h">Sources and checks</h2>
+        <p>Every figure above is computed from these Creator Portal exports (Análisis, Jugabilidad tab), downloaded Oct 19, 2026. Hover any figure to see which file it comes from.</p>
+      </header>
+      <div class="panel-body">
+        <div class="tablebox">
+          <table class="src">
+            <thead><tr><th>Ref</th><th>File</th><th>Island</th><th>Portal file</th><th>Used for</th><th>SHA-256</th></tr></thead>
+            <tbody>
+              <tr id="src-S1"><td><span class="cat" data-cat="S1">S1</span></td><td><code>hh3_analytics_device.csv</code></td><td>Havoc Hotel 3</td><td>dispositivo_analítico.csv</td><td>All Clayface figures</td><td class="hash">{{HASH_S1}}</td></tr>
+              <tr id="src-S2"><td><span class="cat" data-cat="S2">S2</span></td><td><code>hh2_analytics_device.csv</code></td><td>Havoc Hotel 2</td><td>dispositivo_analítico.csv</td><td>All Clayface figures</td><td class="hash">{{HASH_S2}}</td></tr>
+              <tr id="src-S3"><td><span class="cat" data-cat="S3">S3</span></td><td><code>hh3_release_notes.csv</code></td><td>Havoc Hotel 3</td><td>lo_más_destacado_cambios_de_la_versión.csv</td><td>When tracking went live</td><td class="hash">{{HASH_S3}}</td></tr>
+              <tr id="src-S4"><td><span class="cat" data-cat="S4">S4</span></td><td><code>hh2_release_notes.csv</code></td><td>Havoc Hotel 2</td><td>lo_más_destacado_cambios_de_la_versión.csv</td><td>When tracking went live</td><td class="hash">{{HASH_S4}}</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h3>Checks on the raw exports</h3>
+          <p class="note" style="margin-bottom:.5rem">Recomputed on this page from the files. No Clayface event appears before the release that added tracking.</p>
+          <div class="tablebox">
+            <table id="verify-table" data-source="verification" data-row-key="map">
+              <thead><tr><th data-field="map">Island</th><th class="num" data-field="rowsInFile">Days in file</th><th data-field="firstDay">From</th><th data-field="lastDay">To</th><th data-field="trackingRelease">Tracking release</th><th class="num" data-field="daysTracked">Days with data</th><th class="num" data-field="eventsBeforeTracking">Events before</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <p class="foot">Prepared by TeraCreators for the Clayface event on Havoc Hotel 3 and Havoc Hotel 2. Data: Fortnite Creator Portal exports, Oct 19, 2026.</p>
+  <div class="tip" hidden></div>
+</div>
